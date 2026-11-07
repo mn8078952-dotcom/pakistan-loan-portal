@@ -1,0 +1,24 @@
+{
+  "name": "pakistan-loan-portal",
+  "version": "1.0.0",
+  "description": "Pakistan Loan Portal - Official Loan Guidance & Application Portal",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mn8078952-dotcom/pakistan-loan-portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mn8078952-dotcom/pakistan-loan-portal/issues"
+  },
+  "homepage": "https://github.com/mn8078952-dotcom/pakistan-loan-portal#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.1.0"
+  }
+}

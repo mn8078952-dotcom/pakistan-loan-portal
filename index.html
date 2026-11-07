@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan Loan Portal - Islamic Republic of Pakistan</title>
+    
+    <!-- Vercel Speed Insights -->
+    <script>
+        window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#002B45',
+                        deepTeal: '#004B50',
+                        primaryTeal: '#55BDB4',
+                        tealHover: '#44a89f',
+                        lightGray: '#F4F7F8',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        urdu: ['Noto Nastaliq Urdu', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-govt-gradient {
+            background: linear-gradient(135deg, #002B45 0%, #004B50 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #55BDB4 0%, #A5F3FC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #002B45; }
+        ::-webkit-scrollbar-thumb { background: #004B50; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #55BDB4; }
+    </style>
+</head>
+<body class="bg-lightGray text-gray-800 font-sans antialiased min-h-screen flex flex-col">
+
+    <!-- TOP GOVT BAR -->
+    <div class="bg-navy border-b border-deepTeal text-xs text-slate-300 py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/State_emblem_of_Pakistan.svg" alt="State Emblem" class="h-4 w-4 filter invert opacity-80">
+                <span class="font-semibold text-slate-200">ISLAMIC REPUBLIC OF PAKISTAN</span>
+                <span class="text-slate-500">|</span>
+                <span class="text-slate-300 text-[11px]">Official Loan Guidance & Application Portal</span>
+            </div>
+            <div class="flex items-center gap-4 text-[11px]">
+                <span><i class="fa-solid fa-phone text-primaryTeal mr-1"></i> HELPLINE: 03048474863</span>
+                <span><i class="fa-brands fa-whatsapp text-emerald-400 mr-1"></i> WHATSAPP: 03048474863</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <nav class="bg-navy text-white sticky top-0 z-50 shadow-md border-b border-deepTeal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/State_emblem_of_Pakistan.svg" alt="Emblem" class="h-10 w-10 filter invert">
+                    <div>
+                        <span class="text-xs uppercase tracking-wider text-slate-300 block font-semibold">Ministry of Finance</span>
+                        <span class="text-xl font-extrabold text-white leading-none">Pakistan Loan Portal</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <div class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-200">
+                    <a href="#home" class="hover:text-primaryTeal transition-colors">Home</a>
+                    <a href="#programme" class="hover:text-primaryTeal transition-colors">Programme</a>
+                    <a href="#leadership" class="hover:text-primaryTeal transition-colors">Leadership</a>
+                    <a href="#trust" class="hover:text-primaryTeal transition-colors">Trust & Safety</a>
+                    <a href="#apply" class="bg-primaryTeal hover:bg-tealHover text-navy font-bold px-5 py-2.5 rounded-lg transition-all shadow">
+                        APPLY NOW <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="bg-govt-gradient text-white py-16 sm:py-24 relative overflow-hidden border-b border-deepTeal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl space-y-6">
+                <div class="inline-block px-3 py-1 rounded-md bg-white/10 border border-white/20 text-xs font-bold text-primaryTeal tracking-wider uppercase">
+                    PM YOUTH E-ASAN LOAN SCHEME - 2026/2027
+                </div>
+
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight">
+                    Apna Karobar,<br/>
+                    <span class="text-gradient">Apna Mustaqbil.</span>
+                </h1>
+
+                <p class="text-base sm:text-lg text-slate-200 font-normal leading-relaxed">
+                    Government of Pakistan ke aasan qarz programme ke zariye PKR 10 Lakh se 3 Crore tak ka qarz — kam markup, tez approval, sirf 48 ghante mein.
+                </p>
+
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#apply" class="bg-primaryTeal hover:bg-tealHover text-navy font-extrabold px-8 py-3.5 rounded-xl shadow-lg transition-all text-sm uppercase">
+                        APPLY NOW <i class="fa-solid fa-chevron-right ml-1"></i>
+                    </a>
+                    <a href="#programme" class="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3.5 rounded-xl transition-all text-sm">
+                        LEARN MORE
+                    </a>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 pt-8 border-t border-white/10 text-center md:text-left">
+                <div>
+                    <span class="block text-2xl sm:text-3xl font-extrabold text-primaryTeal">MAX LOAN</span>
+                    <span class="text-xs text-slate-300">Up to PKR 3 Crore</span>
+                </div>
+                <div>
+                    <span class="block text-2xl sm:text-3xl font-extrabold text-white">APPROVAL</span>
+                    <span class="text-xs text-slate-300">Within 48 Hours</span>
+                </div>
+                <div>
+                    <span class="block text-2xl sm:text-3xl font-extrabold text-primaryTeal">BENEFICIARIES</span>
+                    <span class="text-xs text-slate-300">Over 5 Lakh+ Youth</span>
+                </div>
+                <div>
+                    <span class="block text-2xl sm:text-3xl font-extrabold text-white">MARKUP</span>
+                    <span class="text-xs text-slate-300">0% – 7% Subsidized</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST SECTION -->
+    <section id="trust" class="py-16 bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-bold text-primaryTeal uppercase tracking-widest">WHY THIS PROGRAMME</span>
+                <h2 class="text-3xl font-extrabold text-navy mt-1">A programme built on trust.</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="p-6 rounded-2xl bg-lightGray border border-gray-200">
+                    <span class="text-3xl font-extrabold text-navy block mb-2">01</span>
+                    <h3 class="font-bold text-navy text-lg mb-1">10L – 3 Cr</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">Zaroorat ke mutabiq qarz limit — chote karobar se le kar medium enterprises tak.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-lightGray border border-gray-200">
+                    <span class="text-3xl font-extrabold text-navy block mb-2">02</span>
+                    <h3 class="font-bold text-navy text-lg mb-1">48 Hours</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">Tez tareen approval processing — 48 ghante mein bina kisi baghair daftari taakheer ke.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-lightGray border border-gray-200">
+                    <span class="text-3xl font-extrabold text-navy block mb-2">03</span>
+                    <h3 class="font-bold text-navy text-lg mb-1">Secure</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">Government certified portal — aapka data 100% secure aur mahfooz rehta hai.</p>
+                </div>
+
+                <div class="p-6 rounded-2xl bg-lightGray border border-gray-200">
+                    <span class="text-3xl font-extrabold text-navy block mb-2">04</span>
+                    <h3 class="font-bold text-navy text-lg mb-1">Sab ke liye</h3>
+                    <p class="text-xs text-gray-600 leading-relaxed">Karobari khawateen aur koi bhi — har Pakistani ke liye khush-khabari.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEADERSHIP SHOWCASE -->
+    <section id="leadership" class="py-16 bg-govt-gradient text-white border-b border-deepTeal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <span class="text-xs font-bold text-primaryTeal uppercase tracking-widest">LEADERSHIP</span>
+                <h2 class="text-3xl font-extrabold text-white mt-1">A vision for a prosperous Pakistan.</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Shehbaz Sharif Card -->
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col sm:flex-row gap-6 items-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Shehbaz_Sharif_in_2023.jpg/220px-Shehbaz_Sharif_in_2023.jpg" alt="Shehbaz Sharif" class="w-36 h-44 object-cover rounded-xl border-2 border-primaryTeal shadow-md">
+                    <div class="space-y-2 text-center sm:text-left">
+                        <span class="text-[10px] font-bold text-primaryTeal tracking-wider uppercase block">Prime Minister of Pakistan</span>
+                        <h3 class="text-xl font-bold text-white">Muhammad Shehbaz Sharif</h3>
+                        <p class="text-xs text-slate-300 italic">"Har Pakistani ko mustaqbil mein aur khud-mukhtar banna chahiye."</p>
+                    </div>
+                </div>
+
+                <!-- Maryam Nawaz Card -->
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col sm:flex-row gap-6 items-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Maryam_Nawaz_Sharif.jpg/220px-Maryam_Nawaz_Sharif.jpg" alt="Maryam Nawaz Sharif" class="w-36 h-44 object-cover rounded-xl border-2 border-primaryTeal shadow-md">
+                    <div class="space-y-2 text-center sm:text-left">
+                        <span class="text-[10px] font-bold text-primaryTeal tracking-wider uppercase block">Chief Minister - Punjab</span>
+                        <h3 class="text-xl font-bold text-white">Maryam Nawaz Sharif</h3>
+                        <p class="text-xs text-slate-300 italic">"Naujawan aur chote karobari hazraat ki maali madad hamari tarjeehat hai."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BADGES -->
+    <div class="bg-lightGray py-4 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 flex flex-wrap justify-center items-center gap-6 text-xs font-bold text-gray-600 uppercase">
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-primaryTeal"></i> Government Verified</span>
+            <span>•</span>
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-hand-holding-dollar text-emerald-600"></i> Zero Advance Fee</span>
+            <span>•</span>
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-building-columns text-navy"></i> State Bank Regulated</span>
+            <span>•</span>
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-laptop text-deepTeal"></i> 100% Online Processing</span>
+        </div>
+    </div>
+
+    <!-- LOAN APPLICATION FORM SECTION -->
+    <section id="apply" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-extrabold text-navy">Apni interest register karein</h2>
+                <p class="text-xs sm:text-sm text-gray-500 mt-2 max-w-xl mx-auto">
+                    Yeh chota sa form hai. Representative aap se raabta karega. Kisi ko bank card details, PIN, ya OTP na dein.
+                </p>
+            </div>
+
+            <!-- Multi-step Header Indicator -->
+            <div class="flex justify-between items-center mb-8 border-b border-gray-200 pb-4 text-xs font-bold text-gray-400">
+                <div class="flex items-center gap-2 text-primaryTeal border-b-2 border-primaryTeal pb-2">
+                    <span class="w-6 h-6 rounded-full bg-navy text-primaryTeal flex items-center justify-center text-xs">1</span>
+                    <span>Step 1: Personal Information</span>
+                </div>
+                <div class="flex items-center gap-2 opacity-50">
+                    <span class="w-6 h-6 rounded-full bg-gray-200 text-gray-600 flex items-center justify-center text-xs">2</span>
+                    <span>Step 2: Business Details</span>
+                </div>
+                <div class="flex items-center gap-2 opacity-50">
+                    <span class="w-6 h-6 rounded-full bg-gray-200 text-gray-600 flex items-center justify-center text-xs">3</span>
+                    <span>Step 3: Documents</span>
+                </div>
+            </div>
+
+            <!-- FORM START -->
+            <form id="loanForm" class="bg-lightGray p-6 sm:p-10 rounded-2xl border border-gray-200 shadow-sm space-y-6">
+                <div class="border-b border-gray-200 pb-4">
+                    <h3 class="text-lg font-bold text-navy">Personal Information</h3>
+                    <p class="text-xs text-gray-500 font-urdu">اپنی ذاتی معلومات درج کریں</p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <!-- Full Name -->
+                    <div>
+                        <label class="block text-xs font-bold text-navy uppercase mb-1">Full Name * <span class="font-urdu text-gray-400 font-normal">پورا نام</span></label>
+                        <input type="text" id="fullName" required placeholder="e.g. Ali Khan" class="w-full p-3 bg-white border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-primaryTeal focus:outline-none">
+                    </div>
+
+                    <!-- CNIC Number -->
+                    <div>
+                        <label class="block text-xs font-bold text-navy uppercase mb-1">CNIC * <span class="font-urdu text-gray-400 font-normal">شناختی کارڈ</span></label>
+                        <input type="text" id="cnic" required placeholder="12345-1234567-1" class="w-full p-3 bg-white border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-primaryTeal focus:outline-none">
+                    </div>
+
+                    <!-- Mobile Number -->
+                    <div>
+                        <label class="block text-xs font-bold text-navy uppercase mb-1">Mobile No * <span class="font-urdu text-gray-400 font-normal">موبائل نمبر</span></label>
+                        <input type="tel" id="mobile" required placeholder="0300-1234567" class="w-full p-3 bg-white border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-primaryTeal focus:outline-none">
+                    </div>
+
+                    <!-- Gender -->
+                    <div>
+                        <label class="block text-xs font-bold text-navy uppercase mb-1">Gender * <span class="font-urdu text-gray-400 font-normal">جنس</span></label>
+                        <select id="gender" required class="w-full p-3 bg-white border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-primaryTeal focus:outline-none">
+                            <option value="">Select gender</option>
+                            <option value="Male">Male (مرد)</option>
+                            <option value="Female">Female (عورت)</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <!-- Date of Birth -->
+                    <div>
+                        <label class="block text-xs font-bold text-navy uppercase mb-1">Date of Birth * <span class="font-urdu text-gray-400 font-normal">تاریخ پیدائش</span></label>
+                        <input type="date" id="dob" required class="w-full p-3 bg-white border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-primaryTeal focus:outline-none">
+                    </div>
+
+                    <!-- Province -->
+                    <div>
+                        <label class="block text-xs font-bold text-navy uppercase mb-1">Province * <span class="font-urdu text-gray-400 font-normal">صوبہ</span></label>
+                        <select id="province" required class="w-full p-3 bg-white border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-primaryTeal focus:outline-none">
+                            <option value="">Select province</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Sindh">Sindh</option>
+                            <option value="KPK">Khyber Pakhtunkhwa (KPK)</option>
+                            <option value="Balochistan">Balochistan</option>
+                            <option value="Islamabad">Islamabad Capital Territory</option>
+                            <option value="Gilgit Baltistan">Gilgit Baltistan</option>
+                            <option value="AJK">Azad Jammu & Kashmir</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div>
+                    <label class="block text-xs font-bold text-navy uppercase mb-1">Address * <span class="font-urdu text-gray-400 font-normal">پتہ</span></label>
+                    <input type="text" id="address" required placeholder="House No, Street, City" class="w-full p-3 bg-white border border-gray-300 rounded-xl text-sm focus:ring-2 focus:ring-primaryTeal focus:outline-none">
+                </div>
+
+                <!-- Submit Button -->
+                <div class="pt-4 flex justify-end">
+                    <button type="submit" class="bg-navy hover:bg-deepTeal text-primaryTeal font-extrabold px-8 py-3.5 rounded-xl transition-all text-sm flex items-center gap-2 shadow-md">
+                        <span>Continue / آگے بڑھیں</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy text-slate-300 text-xs py-12 border-t border-deepTeal">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-3 mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/State_emblem_of_Pakistan.svg" alt="Emblem" class="h-8 w-8 filter invert">
+                        <div>
+                            <span class="text-xs uppercase text-slate-400 block font-bold">Ministry of Finance</span>
+                            <span class="text-base font-bold text-white">Pakistan Loan Portal</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 leading-relaxed">Official portal for loan assistance programmes. All applications are processed through verified government channels.</p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold uppercase tracking-wider mb-3">CONTACT</h4>
+                    <p class="mb-1"><i class="fa-solid fa-phone text-primaryTeal mr-2"></i> 03048474863</p>
+                    <p class="mb-1"><i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i> 03048474863 (WhatsApp)</p>
+                    <p class="mb-1"><i class="fa-solid fa-envelope text-primaryTeal mr-2"></i> info@finance.gov.pk</p>
+                    <p><i class="fa-solid fa-location-dot text-primaryTeal mr-2"></i> Q-Block, Pak Secretariat, Islamabad</p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold uppercase tracking-wider mb-3">SECTIONS</h4>
+                    <ul class="space-y-1 text-slate-400">
+                        <li><a href="#home" class="hover:text-primaryTeal">About Programme</a></li>
+                        <li><a href="#apply" class="hover:text-primaryTeal">Apply for Loan</a></li>
+                        <li><a href="#trust" class="hover:text-primaryTeal">Trust & Safety</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-6 border-t border-white/10 text-center flex flex-col sm:flex-row justify-between items-center gap-2 text-slate-400">
+                <span>MOF.GOV.PK - GOVERNMENT OF PAKISTAN</span>
+                <span>Pakistan Zindabad PK</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL POPUP FOR SUCCESS / ERROR -->
+    <div id="statusModal" class="fixed inset-0 bg-navy/80 backdrop-blur-sm hidden items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 text-center space-y-4 shadow-2xl border border-gray-200">
+            <div id="modalIcon" class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-2xl mx-auto">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h3 id="modalTitle" class="text-xl font-bold text-navy">Darkhwast Mosool Ho Chuki Hai</h3>
+            <p id="modalMessage" class="text-xs text-gray-600 leading-relaxed"></p>
+            <div id="refBox" class="bg-lightGray p-3 rounded-xl border border-gray-200 text-xs font-mono font-bold text-navy hidden"></div>
+            <button onclick="closeModal()" class="w-full py-3 bg-navy text-primaryTeal font-extrabold rounded-xl text-xs hover:bg-deepTeal transition-all">
+                OK / ٹھیک ہے
+            </button>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT CONNECTIVITY TO NODE.JS BACKEND -->
+    <script>
+        document.getElementById('loanForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formData = {
+                fullName: document.getElementById('fullName').value,
+                cnic: document.getElementById('cnic').value,
+                mobile: document.getElementById('mobile').value,
+                gender: document.getElementById('gender').value,
+                dob: document.getElementById('dob').value,
+                province: document.getElementById('province').value,
+                address: document.getElementById('address').value
+            };
+
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const origText = submitBtn.innerHTML;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = `<i class="fa-solid fa-spinner animate-spin"></i> Submitting...`;
+
+            try {
+                // Fetch call to your Node.js backend running on port 5000
+                const response = await fetch('http://localhost:5000/api/apply-loan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    showModal('success', result.message, `Reference ID: ${result.referenceId}`);
+                    document.getElementById('loanForm').reset();
+                } else {
+                    showModal('error', result.message || 'Kuch masla hua hai. Dobara koshish karein.');
+                }
+            } catch (err) {
+                // Server disconnect fallback alert
+                showModal('error', 'Server Connection Failed! Computer par "node server.js" run karna zaroori hai.');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = origText;
+            }
+        });
+
+        function showModal(type, msg, ref = '') {
+            const modal = document.getElementById('statusModal');
+            const icon = document.getElementById('modalIcon');
+            const title = document.getElementById('modalTitle');
+            const message = document.getElementById('modalMessage');
+            const refBox = document.getElementById('refBox');
+
+            if (type === 'success') {
+                icon.className = "w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-2xl mx-auto";
+                icon.innerHTML = `<i class="fa-solid fa-check"></i>`;
+                title.innerText = "Darkhwast Mosool Ho Chuki Hai";
+                message.innerText = msg;
+                if (ref) {
+                    refBox.innerText = ref;
+                    refBox.classList.remove('hidden');
+                }
+            } else {
+                icon.className = "w-16 h-16 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center text-2xl mx-auto";
+                icon.innerHTML = `<i class="fa-solid fa-triangle-exclamation"></i>`;
+                title.innerText = "Ghalti / Server Error";
+                message.innerText = msg;
+                refBox.classList.add('hidden');
+            }
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('statusModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+    </script>
+</body>
+</html>
